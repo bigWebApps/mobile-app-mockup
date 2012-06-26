@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>HelpDesk</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+			<link rel="stylesheet" href="css/jquery.mobile-1.1.0.min.css" />    
+    <link rel="stylesheet" type="text/css" href="css/helpdesk-base.css">
+    <link rel="stylesheet" type="text/css" href="css/HelpDesk.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobile-1.1.0.min.js"></script>    
+</head> 
+<body> 
+
+<div data-role="page">
+
+	<div data-role="header" data-position="fixed" data-theme="h">
+		<h1>HelpDesk Views</h1>
+	</div><!-- /header -->
+    
+	<div data-role="content" data-theme="d">		
+		<form action="index.html" method="post">
+          
+				<p>	
+				  <select name="select-customer" id="customer" data-role="none">
+                    <option value="ben@bigwebapps.com">ben@bigwebapps.com</option>
+                    <option value="makemeuser">Make me the user</option>
+                    <option value="addnewuser">Add new user</option>
+				  </select>
+               </p>   
+               <p>
+				  <select name="select-account" id="account" data-role="none">
+				     <option value="bigwebapps">bigWebApps</option>
+				     <option value="someoneelse">Someone Else</option>
+				     <option value="anothercompany">Another Company</option>
+				  </select>
+                </p>
+                <p>
+				  <select name="select-tech" id="tech" data-role="none">
+				     <option value="default">Tech (Default Routing)</option>
+				     <option value="someoneelse">Someone Else</option>
+				     <option value="anothercompany">Another Company</option>
+				  </select>                 
+         		</p>
+                <p>
+            	<label><input type="checkbox" name="alternate" /> Make me the alternate </label>
+                </p>
+                <p>                
+				<input type="text" name="subject" id="subject" value="" placeholder="Subject"/>
+				</p>
+                <p>
+				<textarea name="details" id="details" placeholder="Details"></textarea>
+				</p>	                
+                <p>
+				<button type="submit" data-theme="b" name="submit" value="submit-value" >
+					Submit
+				</button>
+                </p>	
+			</form>
+	</div><!-- /content -->
+    
+
+
+</div><!-- /page -->
+
+</body>
+</html>
