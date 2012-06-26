@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "K38L7HPDJV.com.bigwebapps.helpdesk"
+        versionCode="1" 
+        version   = "0.0.2">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>HD App Mock Up Testing</name>
+
+    <description>
+        Original Mock up Files
+    </description>
+
+    <author href="http://helpdesk.bigwebapps.com" email="support@bigwebapps.com">
+        Jon Vickers
+    </author>
+	
+	<preference name="orientation" value="portrait" />
+	<preference name="target-device" value="handset" />
+	<preference name="prerendered-icon" value="true" />	
+	
+	<!-- IOS only icons -->
+	<icon src="img/icons/ios/icon.png" gap:platform="ios" width="57" height="57" />
+	<icon src="img/icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+	<icon src="img/icons/ios/icon_at_2x.png" gap:platform="ios" width="114" height="114" />
+	
+	<!-- IOS only splash screens -->
+	<gap:splash src="img/splash/ios/Default.png" width="320" height="480" />
+	<gap:splash src="img/splash/ios/Default_at_2x.png" width="640" height="960" />
+
+</widget>
